@@ -1,0 +1,255 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+nav {
+
+    background-color: #011638;
+    color: #fff;
+    width: 100%;
+    padding: 1em 0.5em ;
+    position: fixed;
+
+}
+
+nav img {
+
+    width: 3%;
+    display: inline-block;
+
+}
+
+
+.inicio {
+
+    text-align: center;
+    display: inline-block;
+    width: 93%;
+    vertical-align: top;
+
+}
+
+header {
+
+    background-color: #EEC643;
+    padding: 5em 0 2em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2em;
+
+}
+
+header img {
+
+    width: 20%;
+
+}
+
+.juego {
+
+    width: 25%;
+    display: inline-block;
+    margin: 2em 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.juego img {
+
+    width: 70%;
+    border-radius: 10px;
+
+
+}
+
+.principal {
+
+    text-align: center;
+    padding: 3em;
+
+}
+
+.seccion_compra {
+
+    padding: 7em 2em;
+
+}
+
+.compra {
+
+    width: 45%;
+    display: inline-block;
+    font-size: 1.5em;
+
+}
+
+.compra img {
+
+    width: 80%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+}
+
+.compra h2 {
+
+    margin-bottom: 1em;
+
+}
+
+button {
+
+    border: none;
+    background-color: #EEC643;
+    color: white;
+    width: 70%;
+    font-size: 1.7em;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.descripcion {
+
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.descripcion img {
+
+    width: 32%;
+    margin-top: 1em;
+
+}
+
+article {
+
+    display: inline-block;
+    vertical-align: top;
+    background-color: #0D21A1;
+    height: 10em;
+    border-radius: 10px;
+    padding: 1em;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+.pagina_compra {
+
+    overflow-y: hidden;
+
+}
+
+.spiderman {
+
+    overflow-y: auto;
+
+}
+
+.compra_hecha {
+
+    background-color: #011638;
+    height: 100vh;
+    text-align: center;
+    color: white;
+    padding: 25%;
+    font-size: 2em;
+
+}
+
+.compra_hecha h2 {
+
+    margin-bottom: 2em;
+
+}
+
+.compra_hecha button:hover {
+
+    box-shadow: #EEC643 0.5em 0.5em 2em ;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 999px) and (min-width: 500px) {
+    
+    nav img {
+
+        width: 8%
+
+    }
+
+    nav .inicio {
+
+        width: 80%;
+
+    }
+
+    .juego {
+
+        width: 40%;
+
+    }
+
+    article {
+
+        width: 95%;
+        height: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 499px) {
+    
+    nav img {
+
+        width: 10%;
+
+    }
+
+    .inicio {
+
+        width: 70%;
+
+    }
+
+    .juego {
+
+        width: 90%;
+
+    }
+
+    article {
+
+        width: 95%;
+        height: auto;
+
+    }
+
+    .seccion_compra {
+
+        text-align: center;
+
+    }
+
+    .compra {
+
+        width: 70%;
+
+    }
+
+}
+
